@@ -4,8 +4,7 @@ import Handlebars from 'handlebars';
 import handlebarsHelpers from './handlebars-helpers';
 
 class TestHelpers {
-	constructor(page) {
-		this.page = page;
+	constructor() {
 		this.partialsDirectory = '/handlebars/partials';
 		this.fullPartialsDirectory = './[project]/handlebars/partials';
 
